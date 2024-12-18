@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>Add Course</h2>
+    <form id="courseForm">
+        <label for="courseName">Course Name:</label>
+        <input type="text" id="courseName" name="courseName" required>
+        <br>
+        <label for="courseDescription">Description:</label>
+        <textarea id="courseDescription" name="courseDescription" required></textarea>
+        <br>
+        <label for="collegeSelect">College:</label>
+        <select id="collegeSelect" name="collegeId" required>
+            <option value="">Select a College</option>
+        </select>
+        <br>
+        <button type="submit">Add Course</button>
+    </form>
+    <div class="two-btns">
+        <a href="index.html" class="back-to-home">Back to Home</a>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
